@@ -1,0 +1,20 @@
+From: Martin Konrad <konrad@frib.msu.edu>
+Date: Wed, 14 Nov 2018 13:40:08 -0500
+Subject: Add patch that skips building example
+
+---
+ Makefile | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index f08f005..343ba12 100644
+--- a/Makefile
++++ b/Makefile
+@@ -6,7 +6,6 @@ include $(TOP)/configure/CONFIG
+ DIRS += configure
+ DIRS += $(wildcard *Sup)
+ DIRS += $(wildcard *App)
+-DIRS += $(wildcard *Top)
+ DIRS += $(wildcard iocBoot)
+ 
+ # The build order is controlled by these dependency rules:
