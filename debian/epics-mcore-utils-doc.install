@@ -1,0 +1,2 @@
+debian/tmp/usr/lib/epics/doc/MCoreUtils.pdf /usr/share/doc/epics-mcore-utils-doc
+debian/tmp/usr/lib/epics/html/MCoreUtils/* /usr/share/doc/epics-mcore-utils-doc/html
