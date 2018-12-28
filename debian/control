@@ -1,0 +1,22 @@
+Source: epics-mcore-utils
+Priority: optional
+Maintainer: Konrad Martin <konrad@frib.msu.edu>
+Build-Depends: debhelper (>= 9), autotools-dev
+Standards-Version: 3.9.5
+Section: libs
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Git: git://anonscm.debian.org/collab-maint/epics-mcore-utils.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/epics-mcore-utils.git;a=summary
+
+Package: epics-mcore-utils-dev
+Section: libdevel
+Architecture: any
+Depends: epics-mcore-utilsBROKEN (= ${binary:Version}), ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: epics-mcore-utilsBROKEN
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

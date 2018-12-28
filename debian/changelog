@@ -1,0 +1,5 @@
+epics-mcore-utils (1.2.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Konrad Martin <konrad@frib.msu.edu>  Fri, 28 Dec 2018 13:00:59 -0500
