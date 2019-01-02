@@ -1,0 +1,14 @@
+# Doxygen is building their "jquery.js" file from a bunch of minified
+# libraries. They are combining them as required in their C++ code. This
+# means (a) the resulting file contains more than jquery itself and
+# (b) it is minified making it hard to get _the_ source file.
+# The Lintian guys have decided to whitelist jquery.js if it is contained
+# in a Doxygen directory (see https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=736360
+# for details). Until this change has been released we override this error.
+epics-mcore-utils source: source-is-missing MCoreUtilsApp/documentation/MCoreUtils/jquery.js*
+epics-mcore-utils source: source-is-missing MCoreUtilsApp/documentation/MCoreUtils/search/all_0.js line length is 299 characters (>256)
+epics-mcore-utils source: source-is-missing MCoreUtilsApp/documentation/MCoreUtils/search/all_2.js line length is 418 characters (>256)
+epics-mcore-utils source: source-is-missing MCoreUtilsApp/documentation/MCoreUtils/search/all_6.js line length is 278 characters (>256)
+epics-mcore-utils source: source-is-missing MCoreUtilsApp/documentation/MCoreUtils/search/functions_0.js line length is 299 characters (>256)
+epics-mcore-utils source: source-is-missing MCoreUtilsApp/documentation/MCoreUtils/search/functions_1.js line length is 418 characters (>256)
+epics-mcore-utils source: source-is-missing MCoreUtilsApp/documentation/MCoreUtils/search/functions_3.js line length is 278 characters (>256)
